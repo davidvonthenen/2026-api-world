@@ -1,0 +1,16 @@
+
+LLMs:
+python orch_service.py
+
+In news:
+USE_EXTERNAL_LLM_AI=1 make mcp
+USE_EXTERNAL_LLM_AI=1 make agent
+
+In financial:
+USE_EXTERNAL_LLM_AI=1 make mcp
+USE_EXTERNAL_LLM_AI=1 make agent
+
+In orchestrator:
+USE_EXTERNAL_LLM_AI=1 make agent
+make client
+

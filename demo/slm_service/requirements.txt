@@ -1,0 +1,15 @@
+# openai
+openai>=2.44.0
+
+# API / LLM client
+flask>=3.1.0
+python-dotenv>=1.0.0
+requests>=2.34.2
+
+# local LLM serving via llm_server.py
+# Non-Apple-Silicon runtime.
+llama-cpp-python==0.3.35
+
+# Apple Silicon runtime selected automatically by llm_service.py.
+mlx==0.32.0; platform_system == "Darwin" and platform_machine == "arm64"
+mlx-lm==0.31.3; platform_system == "Darwin" and platform_machine == "arm64"
