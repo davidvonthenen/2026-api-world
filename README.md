@@ -16,11 +16,11 @@ Participants should ensure they have the minimum requirements:
 - Using OpenSearch on [Instaclustr](https://www.instaclustr.com/). Try for 30 days for free! [SIGN UP HERE!](https://bit.ly/44gYn7J)
 
 Software Downloads:
-- [Qwen2.5-7B-Instruct-1M-GGUF](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M)
+- [Qwen2.5-7B-Instruct-1M](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M)
   - Running on CPU? Use [Q5_K_M version](https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-1M-GGUF/blob/main/Qwen2.5-7B-Instruct-1M-Q5_K_M.gguf)
   - [(Apple Silicon?) Download this instead](https://huggingface.co/mlx-community/Qwen2.5-7B-Instruct-1M-4bit)
   - Drop the file into your ~/models folder. (You might need to create this.)
-- [Nemotron-Orchestrator-8B-GGUF](https://huggingface.co/nvidia/Nemotron-Orchestrator-8B)
+- [Nemotron-Orchestrator-8B](https://huggingface.co/nvidia/Nemotron-Orchestrator-8B)
   - Running on CPU? Use [Q4_K_M version](https://huggingface.co/Mungert/Nemotron-Orchestrator-8B-GGUF/blob/main/Nemotron-Orchestrator-8B-q4_k_m.gguf)
   - [(Apple Silicon?) Download this instead](https://huggingface.co/mlx-community/Orchestrator-8B-4bit)
   - Drop the file into your ~/models folder. (You might need to create this.)
